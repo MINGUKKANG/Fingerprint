@@ -28,7 +28,6 @@ void setup() {
 
 void loop() {
   if(Serial.available()){
-    Serial.println("1");
     tone(6,261);
     delay(500);
     tone(6,294);
